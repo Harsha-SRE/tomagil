@@ -11,6 +11,13 @@
 - Clone or download the repository.
 - Ensure Java is installed on your system.
 - Include the org.json library in the project build path.
+# Replit Execution
+- import the project using giturl
+- Shell Type :
+- mvn clean install
+- mvn dependency:copy-dependencies
+- mvn spring-boot:run
+- OR use run button  
 # Usage
 - Place the input JSON file named input.json in the project directory.
 - Compile and run the JSONTransformer class.
